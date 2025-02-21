@@ -1,0 +1,14 @@
+{
+    "name": "vendor/messenger",
+    "description": "Projeto de Chat com PHP, WebSocket e MVC",
+    "require": {
+      "cboden/ratchet": "^0.4.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/",
+        "App\\Config\\": "config/"
+      }
+    }
+  }
+  
